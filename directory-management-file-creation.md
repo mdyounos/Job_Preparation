@@ -49,19 +49,12 @@ cd ..
 # Copy the HTML file from Documents to current (Titas) directory
 cp Documents/*.html .
 
-# (Note: Previous mistake — trying to copy to "Titas" while already in it)
-# cp -r Documents/*.html .. Titas   --> Incorrect
-# Correct: cp Documents/*.html .
-
-# Create the 40 directories again
-mkdir titas{1..40}0
-
-# Remove them
-rm -r titas*
-
-# One stray directory was named incorrectly (e.g., '40}0') — remove it
-rm -r 40}0
+# One stray directory was named incorrectly (e.g., '40}0') — remove it if it exists
+rm -r 40\}0
 
 # Final check: what's left
 ls
 # Output: Documents  index.html
+
+# Create symbolic link to /home/SGFL
+ln -s /home/SGFL SGFL-Link
