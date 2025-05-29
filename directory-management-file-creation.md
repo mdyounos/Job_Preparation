@@ -58,3 +58,9 @@ ls
 
 # Create symbolic link to /home/SGFL
 ln -s /home/SGFL SGFL-Link
+
+# Linux user creation command
+adduser mdyounos
+passwd mdyounos
+# New Password: 1234
+# Retype new password: 1234
