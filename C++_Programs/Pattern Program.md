@@ -16,14 +16,6 @@ This C++ program prints a decreasing pattern from a given array. It demonstrates
 This pattern logic appeared in the written test.
 
 ---
-
-## 💡 Sample Output Pattern
-
-Given the array:
-
-```cpp
-int array[6] = {1, 2, 3, 4, 5, 6};
-
 ## 💡 Sample Output Pattern
 
 1 2 3 4 5
@@ -31,3 +23,12 @@ int array[6] = {1, 2, 3, 4, 5, 6};
 1 2 3
 1 2
 1
+
+## 💡 Sample input array
+
+Given the array:
+
+```cpp
+int array[6] = {1, 2, 3, 4, 5, 6};
+
+

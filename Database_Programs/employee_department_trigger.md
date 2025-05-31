@@ -24,6 +24,7 @@ This SQL task is based on a question or concept from the above-mentioned competi
 The trigger (`t`) is defined as:
 
 ```sql
+CREATE OR REPLACE TRIGGER t
 AFTER UPDATE OF id_change ON Department
 FOR EACH ROW
 BEGIN
