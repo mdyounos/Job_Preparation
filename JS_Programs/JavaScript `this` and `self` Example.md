@@ -33,6 +33,7 @@ var myObject = {
 
 myObject.func();
 
+```
 # Output
 
 outer func: this.foo= bar
