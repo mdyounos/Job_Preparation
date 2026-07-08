@@ -1,0 +1,13 @@
+CREATE TABLE Employee(
+  Emp_ID INT,
+  Name VARCHAR(50),
+  Salary INT);
+  
+INSERT INTO Employee VALUES
+(101,'Md Younos',50000),
+(102,'Md Jahangir Alam',52000),
+(103,'Md Masud Rana',55000),
+(104,'Md Yeasin Mizi',60000);
+
+SELECT MIN(Salary) AS 'Minimum Salary', AVG(Salary) AS 'Average Salary'
+FROM Employee
