@@ -20,11 +20,13 @@ void Count(string str)
     int DigitCount=0,AlphaCount=0;
     for(int i=0;i<Length;i++)
     {
-        if(str[i]>='0'&&str[i]<='9')
+//        if(str[i]>='0'&&str[i]<='9')
+        if(isdigit(str[i]))
         {
             DigitCount++;
         }
-        else if(str[i]>=65&&str[i]<=90||str[i]>=97&&str[i]<=122)
+//        else if((str[i]>=65&&str[i]<=90)||(str[i]>=97&&str[i]<=122))
+        else if(isalpha(str[i]))
         {
             AlphaCount++;
         }
